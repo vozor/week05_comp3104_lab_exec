@@ -15,9 +15,9 @@ install:
   - npm install -g yarn
 
 script:
-  #- yarn lint
+  - yarn lint
   - yarn build
-  #- mv build/index.html/404.html  
+  - mv build/index.html/404.html  
 
 deploy:
   provider: pages
